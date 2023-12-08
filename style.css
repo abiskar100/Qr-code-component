@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight: 400 700;
+    src: url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Outfit&display=swap');
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+--white:hsl(0, 0%, 100%);
+--Light_gray:hsl(212, 45%, 89%);
+--Grayish_blue:hsl(220, 15%, 55%);
+--Dark_blue:hsl(218, 44%, 22%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+p{
+    font-size: 15px;
+    color: var(--Grayish_blue);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Light_gray);
+    height: 100vh;
+}
+
+.main-box {
+    width: 260px;
+    height: 410px;
+    background-color: var(--white);
+    border: 2px solid  var(--white);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.little-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Dark_blue);
+}
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    gap: 1rem;
+}
+
+img {
+    border-radius: 12px;
+}
+
